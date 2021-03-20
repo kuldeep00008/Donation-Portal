@@ -2889,12 +2889,14 @@
 				color: #fff;
 				left: 2em;
 				top: 1em;
+				position: absolute;
+				color: #000;
+				font-weight: bold;
 			}
 
-				#header.alt h1 {
-					position: absolute;
-					color: #000;
-				}
+			#header.alt h1:hover {
+				color: #ddd;
+			}
 
 			#header.alt nav {
 				right: 2em;
@@ -2906,7 +2908,7 @@
 				}
 
 					#header.alt nav a:active, #header.alt nav a:hover {
-						color: #FFF;
+						color: #ddd;
 					}
 
 			#header.alt .button {
