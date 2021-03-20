@@ -2810,14 +2810,14 @@
 			padding: 0;
 			position: absolute;
 			top: 0;
+			z-index: 10001;
 		}
 
 		#header nav {
-			height: inherit;
-			line-height: inherit;
 			position: absolute;
 			right: 1.25em;
 			top: 0;
+			right: 0;
 			vertical-align: middle;
 		}
 
@@ -2877,31 +2877,32 @@
 			}
 
 		#header.alt {
-			background-color: transparent;
+			background-color: white;
 			border: 0;
 			box-shadow: none;
-			height: 3.25em;
+			height: 4.5em;
 			line-height: 3.25em;
-			position: absolute;
+			position: fixed;
 		}
 
 			#header.alt h1 {
-				color: #ffffff;
-				left: 2.5em;
-				top: 2em;
+				color: #fff;
+				left: 2em;
+				top: 1em;
 			}
 
-				#header.alt h1 a {
-					color: #FFF;
+				#header.alt h1 {
+					position: absolute;
+					color: #000;
 				}
 
 			#header.alt nav {
 				right: 2em;
-				top: 2em;
+				top: 1em;
 			}
 
 				#header.alt nav a {
-					color: #ddd;
+					color: #000;
 				}
 
 					#header.alt nav a:active, #header.alt nav a:hover {
