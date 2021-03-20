@@ -10,7 +10,7 @@
 	<body class="landing">
 
 			<header id="header" class="alt">
-				<h1 ><strong><a href="home.php" >Donation Portal - </a></strong>   Sparks Foundation</h1>
+				<h1 ><a href="home.php" >Donation Portal - </a>   Sparks Foundation</h1>
 				<nav id="nav">
 					<ul>
 						<li><a href="home.php">Home</a></li>
